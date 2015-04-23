@@ -1,0 +1,6 @@
+Proxy program is from repository https://github.com/Esri/resource-proxy release "resource-proxy-1.0", DotNet version 
+With minor changes to better support geoenrichment. See specific commit for detailed changes: https://github.com/MikeTschudi/resource-proxy/tree/5a5e74e6d36e020ecac54896dd17cc70e494be3d
+
+proxy.ashx file date:
+01/16/2015 5:18 PM EST
+

@@ -1,0 +1,467 @@
+﻿/*global define */
+/** @license
+| Version 10.2
+| Copyright 2013 Esri
+|
+| Licensed under the Apache License, Version 2.0 (the "License");
+| you may not use this file except in compliance with the License.
+| You may obtain a copy of the License at
+|
+|    http://www.apache.org/licenses/LICENSE-2.0
+|
+| Unless required by applicable law or agreed to in writing, software
+| distributed under the License is distributed on an "AS IS" BASIS,
+| WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+| See the License for the specific language governing permissions and
+| limitations under the License.
+*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2)
+{
+    .esriCTHeaderSearch
+    {
+        background-image: url("../images/locate@2x.png");
+    }
+
+    .esriCTHelpImg
+    {
+        background-image: url("../images/help@2x.png");
+    }
+
+    .esriCTTdGeolocation
+    {
+        background-image: url("../images/geolocation@2x.png");
+    }
+
+    .esriCTImgSocialMedia
+    {
+        background-image: url("../images/share@2x.png");
+    }
+
+    .esriCTReportsImg
+    {
+        background-image: url("../images/reports@2x.png");
+    }
+
+    .esriCTHeaderSearch, .esriCTHeaderSearchSelected, .esriCTTdGeolocation, .esriCTImgSocialMediaSelected, .esriCTImgSocialMedia, .esriCTReportsImg, .esriCTReportsImgSelected, .esriCTHelpImg, .esriCTRouteImg, .esriCTRouteImgSelected
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+        margin: 8px 15px !important;
+    }
+
+    .esriCTFacebook, .esriCTTwitter, .esriCTEmail, .esriCTEmbedding
+    {
+        height: 44px !important;
+        width: 44px !important;
+        padding: 8px 0 !important;
+        background-size: 44px;
+    }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) /*if device wise @media only screen and (min-device-width : 1024px) and (max-device-width : 1280px)*/
+{
+    html, body
+    {
+        font-size: 14px !important;
+    }
+
+    input
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTDisplayField, .esriCTValueField
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTHeaderSearch, .esriCTHeaderSearchSelected, .esriCTTdGeolocation, .esriCTImgSocialMediaSelected, .esriCTImgSocialMedia, .esriCTReportsImg, .esriCTReportsImgSelected, .esriCTHelpImg, .esriCTRouteImg, .esriCTRouteImgSelected
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+        margin: 8px 15px !important;
+    }
+
+    .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+
+    .esriCTAddressHolder, .esriCTAddressContentHeight
+    {
+        top: 61px !important;
+    }
+
+    .esriCTTxtAddress
+    {
+        font-size: 15px !important;
+    }
+
+    .esriCTDivAppContainer
+    {
+        top: 61px !important;
+    }
+
+    .esriCTFacebook, .esriCTTwitter, .esriCTEmail, .esriCTEmbedding
+    {
+        height: 44px !important;
+        width: 44px !important;
+        padding: 8px 0 !important;
+        background-size: 44px;
+    }
+
+    .esriCTSearchClose
+    {
+        right: 70px;
+    }
+
+    .esriCTApplicationHeaderTextTD
+    {
+        font-size: 30px;
+    }
+
+    .esriCTRightPanel
+    {
+        clear: both;
+        margin-top: 61px;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTCustomButtonInner
+    {
+        padding-top: 4px;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        padding: 10px 0 2px 5px;
+    }
+
+    .esriCTShareContainer
+    {
+        width: 95%;
+    }
+
+    .claro .dijitSelectLabel, .claro .dijitTextBox .dijitInputInner, .claro .dijitValidationTextBox .dijitValidationContainer
+    {
+        margin-left: 2px;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) /*if device wise  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)*/
+{
+    html, body
+    {
+        font-size: 14px !important;
+    }
+
+    input
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTDisplayField, .esriCTValueField
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTHeaderSearch, .esriCTHeaderSearchSelected, .esriCTTdGeolocation, .esriCTImgSocialMediaSelected, .esriCTImgSocialMedia, .esriCTReportsImg, .esriCTReportsImgSelected, .esriCTHelpImg, .esriCTRouteImg, .esriCTRouteImgSelected
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+        margin: 8px 15px !important;
+    }
+
+    .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+
+    .esriCTAddressHolder, .esriCTAddressContentHeight
+    {
+        top: 61px !important;
+    }
+
+    .esriCTTxtAddress
+    {
+        font-size: 15px !important;
+    }
+
+    .esriCTDivAppContainer
+    {
+        top: 61px !important;
+    }
+
+    .esriCTFacebook, .esriCTTwitter, .esriCTEmail, .esriCTEmbedding
+    {
+        height: 44px !important;
+        width: 44px !important;
+        padding: 8px 0 !important;
+        background-size: 44px;
+    }
+
+    .esriCTSearchClose
+    {
+        right: 70px;
+    }
+
+    .esriCTApplicationHeaderTextTD
+    {
+        font-size: 30px;
+    }
+
+    .esriCTRightPanel
+    {
+        clear: both;
+        margin-top: 61px;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTCustomButtonInner
+    {
+        padding-top: 4px;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        padding: 10px 0 2px 5px;
+    }
+
+    .esriCTShareContainer
+    {
+        width: 95%;
+    }
+
+    .esriCTTabContainer
+    {
+        margin-top: 61px;
+    }
+
+    .esriCTRight
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .claro .dijitSelectLabel, .claro .dijitTextBox .dijitInputInner, .claro .dijitValidationTextBox .dijitValidationContainer
+    {
+        margin-left: 2px;
+    }
+
+    .esriCTFirstIndex
+    {
+        height: 16px !important;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width: 767px)
+{
+    html, body
+    {
+        font-size: 14px !important;
+    }
+
+    input
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTDisplayField, .esriCTValueField
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTHeaderSearch, .esriCTHeaderSearchSelected, .esriCTTdGeolocation, .esriCTImgSocialMediaSelected, .esriCTImgSocialMedia, .esriCTReportsImg, .esriCTReportsImgSelected, .esriCTHelpImg, .esriCTRouteImg, .esriCTRouteImgSelected
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+        margin: 8px 15px !important;
+    }
+
+    .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        display: none;
+    }
+
+    .esriCTAddressHolder, .esriCTAddressContentHeight
+    {
+        top: 61px !important;
+    }
+
+    .esriCTTxtAddress
+    {
+        font-size: 15px !important;
+    }
+
+    .esriCTDivAppContainer
+    {
+        top: 61px !important;
+    }
+
+    .esriCTFacebook, .esriCTTwitter, .esriCTEmail, .esriCTEmbedding
+    {
+        height: 44px !important;
+        width: 44px !important;
+        padding: 8px 0 !important;
+        background-size: 44px;
+    }
+
+    .esriCTSearchClose
+    {
+        right: 70px;
+    }
+
+    .esriCTApplicationHeaderTextTD
+    {
+        font-size: 30px;
+    }
+
+    .esriCTRightPanel
+    {
+        clear: both;
+        margin-top: 61px;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTCustomButtonInner
+    {
+        padding-top: 4px;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        padding: 10px 0 2px 5px;
+    }
+
+    .esriCTShareContainer
+    {
+        width: 95%;
+    }
+
+    .esriCTTabContainer
+    {
+        margin-top: 61px;
+    }
+
+    .esriCTRight
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .claro .dijitSelectLabel, .claro .dijitTextBox .dijitInputInner, .claro .dijitValidationTextBox .dijitValidationContainer
+    {
+        margin-left: 2px;
+    }
+
+    .esriCTFirstIndex
+    {
+        height: 16px !important;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width: 680px)
+{
+    html, body
+    {
+        font-size: 14px !important;
+    }
+
+    input
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTAreaOfInterestTab .esriCTReportTab
+    {
+        font-size: 14px !important;
+    }
+
+    .esriCTDisplayField, .esriCTValueField
+    {
+        font-size: 14px !important;
+    }
+    .esriCTApplicationHeaderTextTD
+    {
+        display: none;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        display: none;
+    }
+
+    .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+
+    .esriCTTabContainer
+    {
+        margin-top: 61px;
+    }
+
+    .esriCTAddressHolder, .esriCTAddressContentHeight
+    {
+        top: 61px !important;
+    }
+
+    .esriCTDivAppContainer
+    {
+        top: 61px !important;
+    }
+    .esriCTSplashScreenDialog
+    {
+        height: 90% !important;
+        width: 93% !important;
+    }
+
+    .esriCTHeaderSearch, .esriCTHeaderSearchSelected, .esriCTTdGeolocation, .esriCTImgSocialMediaSelected, .esriCTImgSocialMedia, .esriCTReportsImg, .esriCTReportsImgSelected, .esriCTHelpImg, .esriCTRouteImg, .esriCTRouteImgSelected
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+        width: 25% !important;
+        margin: 8px 0 !important;
+    }
+
+    .esriCTRightTab
+    {
+        width: 100%;
+    }
+}
+
+/* Landscape */
